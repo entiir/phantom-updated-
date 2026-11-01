@@ -1,0 +1,50 @@
+
+/* Empty-account Home, measured from the supplied October 29 recording. */
+.recorded-home{padding:20px 20px 4px;color:#f5f5f7}
+.recorded-welcome{background:#121212;border-radius:24px;padding:20px 20px 16px;text-align:center}
+.recorded-welcome>img{display:block;width:132px;height:75px;object-fit:contain;margin:0 auto 18px}
+.recorded-welcome h1{font-size:24px;font-weight:600;line-height:28px;letter-spacing:-.025em;margin:0;white-space:nowrap}
+.recorded-welcome p{margin:10px 0 22px;color:#ababaf;font-size:16px;line-height:20px;letter-spacing:-.015em;white-space:nowrap}
+.recorded-deposit{display:block;width:100%;height:46px;border-radius:999px;background:#aa96f2;color:#08070b;font-size:17px;font-weight:600}
+.recorded-prediction-banner{position:relative;min-height:164px;margin-top:24px;border-radius:24px;background:#121212;padding:18px 20px;overflow:hidden}
+.recorded-banner-text{position:relative;z-index:1;width:235px;max-width:75%}
+.recorded-banner-text>small{display:block;color:#b6a3fa;font-size:9px;font-weight:600;line-height:12px;letter-spacing:.025em}
+.recorded-banner-text p{font-size:19px;line-height:25px;letter-spacing:-.02em;margin:10px 0 18px;font-weight:400}
+.recorded-banner-text>button{color:#b4a0f3;font-size:16px;font-weight:500;min-height:34px;text-align:left}
+.recorded-prediction-banner>img{position:absolute;right:16px;bottom:16px;width:102px;height:126px;object-fit:contain}
+.recorded-banner-close{position:absolute;z-index:3;right:8px;top:8px;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;background:#1a1a1a}
+.recorded-markets{margin-top:28px}
+.recorded-section-heading{display:flex;align-items:center;gap:6px;min-height:32px;font-size:24px;font-weight:600;letter-spacing:-.025em}
+.recorded-market-filters{display:flex;align-items:center;gap:8px;margin:12px 0 14px;overflow-x:auto;scrollbar-width:none}
+.recorded-market-filters button{flex-shrink:0;min-height:40px;padding:8px 15px;border-radius:999px;background:#141414;color:#a9a9af;font-size:15px;font-weight:500;white-space:nowrap}
+.recorded-market-filters button:first-child{width:40px;padding:10px;color:#e9e9eb}
+.recorded-market-filters button[aria-pressed=true]{background:#efeff1;color:#080808}
+.recorded-market-row{display:flex;align-items:center;gap:12px;width:100%;min-height:70px;padding:12px 0;text-align:left}
+.recorded-market-icon{width:40px;height:40px;flex-shrink:0;object-fit:contain}
+.recorded-market-name{min-width:0;flex:1}
+.recorded-market-name strong{display:block;font-size:18px;line-height:23px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.recorded-market-name small{display:block;color:#a4a4aa;font-size:15px;line-height:21px}
+.recorded-market-value{flex-shrink:0;text-align:right;font-variant-numeric:tabular-nums}
+.recorded-market-value strong{display:block;font-size:18px;line-height:23px;font-weight:400}
+.recorded-market-value small{display:block;font-size:16px;line-height:21px;font-weight:400}
+.recorded-positive{color:#05e85a}.recorded-negative{color:#f60042}
+.recorded-show-more{display:block;width:100%;border:1px solid #242424;border-radius:999px;min-height:36px;color:#a8a8ad;font-size:16px;margin-top:12px}
+.recorded-reference-note{display:block;color:#909097;font-size:10px;margin-top:10px;text-align:center}
+.recorded-support{margin-top:28px}
+.recorded-support h2{font-size:24px;font-weight:600;line-height:30px;letter-spacing:-.025em;margin:0 0 12px}
+.recorded-support>button{display:flex;align-items:center;gap:6px;min-height:44px;font-size:20px;font-weight:500;margin-bottom:12px;text-align:left}
+.recorded-support>button.recorded-disclosures{color:#96969c;font-size:14px;font-weight:400;margin-top:20px;margin-bottom:0}
+.recorded-market-overlay{position:fixed;inset:0;z-index:100;background:#000;color:#fff}
+.recorded-market-panel{height:100%;max-width:393px;margin:auto;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top)}
+.recorded-market-panel>header{padding:0 20px 10px;flex-shrink:0;background:#000}
+.recorded-market-panel>header>button{display:flex;justify-content:center;align-items:center;width:100%;height:34px;touch-action:none}
+.recorded-market-panel>header>button>span{display:block;height:4px;width:34px;border-radius:99px;background:#666}
+.recorded-market-panel>header>div{display:flex;align-items:center;justify-content:space-between;min-height:44px}
+.recorded-market-panel h2{font-size:20px;font-weight:600}
+.recorded-market-panel>header>div>button{width:40px;height:40px;border-radius:50%;background:#171719;display:grid;place-items:center}
+.recorded-expanded-rows{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:0 20px max(20px,env(safe-area-inset-bottom))}
+.recorded-home button:focus-visible,.recorded-market-panel button:focus-visible{outline:2px solid #aa96f2;outline-offset:3px}
+.recorded-bottom-bar button>span{font-size:16px!important;font-weight:400!important}
+@media(max-width:360px){.recorded-welcome h1{font-size:21px}.recorded-welcome p{font-size:14px}.recorded-banner-text p{font-size:17px}.recorded-prediction-banner>img{width:88px}.recorded-market-filters{gap:6px}.recorded-market-filters button{padding:8px 12px}.recorded-market-value strong{font-size:16px}}
+
+.recorded-home--funded{padding-top:24px}.recorded-home--funded>.recorded-prediction-banner{margin-top:0}.recorded-portfolio{margin:0 -20px}

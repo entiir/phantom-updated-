@@ -1,0 +1,61 @@
+/* Portfolio Home measured from the supplied October 31 reference. */
+.home-reference-design .home-reference-summary{padding-bottom:0}
+.home-reference-account{min-height:28px;margin-bottom:4px}
+.home-reference-summary>.flex.items-center.gap-2{line-height:1.12!important}
+.home-reference-actions{display:flex;gap:8px;padding:25px 14px 0}
+.home-reference-actions button{display:flex;align-items:center;justify-content:center;gap:8px;flex:1;min-width:0;min-height:46px;border-radius:999px;background:#141414;color:#c5c5c7;font-size:18px;font-weight:500}
+.home-reference-design .ph-home-holding{background:#121212;box-shadow:none;min-height:66px;padding:12px 18px;border-radius:23px;margin-bottom:7px;gap:12px!important}
+.home-reference-design .ph-home-holding .truncate{color:inherit}
+.home-reference-design .ph-home-holding>.text-right{flex-shrink:0}
+.home-reference-design .ph-home-holding>.text-right>div{font-size:17px!important;font-weight:400!important}
+.home-reference-design .ph-home-holding .truncate{font-size:16px!important}
+.home-reference-design .ph-home-holding .flex .truncate{font-size:18px!important}
+.home-perps-section{padding-top:18px}
+.home-perps-title{display:flex;align-items:center;gap:6px;margin:0 14px 14px;min-height:32px;font-size:24px;font-weight:600;letter-spacing:-.02em}
+.home-perps-carousel{display:flex;gap:8px;overflow-x:auto;padding:0 14px 4px;scroll-snap-type:x proximity;scrollbar-width:none}
+.home-perps-carousel::-webkit-scrollbar{display:none}
+.home-perps-card{width:154px;flex-shrink:0;scroll-snap-align:start;background:#121212;border-radius:23px;padding:19px 19px 17px;text-align:left;min-height:139px}
+.home-perps-card>svg,.home-perps-card>img,.home-perps-card>div:first-child{display:block;margin-bottom:12px}
+.home-perps-label{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.home-perps-label strong{font-size:18px;font-weight:600;line-height:24px}
+.home-perps-label span{font-size:16px;line-height:20px;padding:0 4px;border-radius:3px;background:#1b1b1b;color:#ededf0}
+.home-perps-change{color:#f60042;font-size:17px;line-height:24px;margin-top:5px;font-variant-numeric:tabular-nums}
+.home-reference-design button:focus-visible{outline:2px solid #aa9ef0;outline-offset:3px}
+.portfolio-home .home-top-nav{padding-left:14px!important;padding-right:14px!important;gap:8px!important}
+.portfolio-home .home-top-nav>button{font-weight:400!important}
+.portfolio-home .home-bottom-bar{padding-left:18px!important;padding-right:6px!important;gap:11px!important}
+.portfolio-home .home-bottom-bar button>span{font-size:18px!important;font-weight:400!important}
+.portfolio-home .home-cash-card>span{font-weight:500!important}
+.portfolio-home .home-cash-card>span:last-child{font-weight:400!important}
+@media(max-width:350px){.home-reference-actions button{font-size:16px}.home-reference-design .ph-home-holding{padding-left:12px;padding-right:12px}.home-reference-design .ph-home-holding>.text-right>div{font-size:15px!important}.home-reference-design .ph-home-holding .truncate{font-size:14px!important}.home-reference-design .ph-home-holding .flex .truncate{font-size:16px!important}}
+
+/* v152: styling pass only; preserve all account data and actions. */
+.portfolio-home{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important}
+.portfolio-home .home-nav-shell{padding-top:max(8px,env(safe-area-inset-top))!important}
+.portfolio-home .home-top-nav{padding-bottom:10px}
+.portfolio-home .home-top-nav>button:not(:first-child){height:40px!important;padding-left:14px!important;padding-right:14px!important;font-size:16px!important;background:#141414!important;color:#bcbcbf!important;box-shadow:inset 0 1px 0 #1d1d1d!important}
+.portfolio-home .home-top-nav>button:nth-child(2){background:#aa9aef!important;color:#09070d!important;box-shadow:inset 0 1px 0 #c2b6fa!important}
+.portfolio-home .home-reference-account>span{font-size:16px!important;font-weight:500!important;color:#aaa!important}
+.portfolio-home .home-reference-summary{padding-top:17px!important}
+.portfolio-home .home-portfolio-balance{letter-spacing:-.025em!important;line-height:1.16!important;white-space:nowrap}
+.portfolio-home .home-portfolio-change{margin-top:12px!important}
+.portfolio-home .home-portfolio-change>span:last-child{font-size:16px!important;line-height:22px!important;padding:0 5px!important;border-radius:6px!important}
+.portfolio-home .home-reference-actions button{background:#131313;box-shadow:inset 0 1px 0 #212121;color:#c8c8c8;font-weight:500}
+.portfolio-home .home-cash-card{background:#111!important;box-shadow:inset 0 1px 0 #1a1a1a;border-radius:24px!important}
+.portfolio-home .home-cash-card>svg{width:24px;height:24px;color:#999}
+.portfolio-home .home-cash-card{gap:17px!important}
+.portfolio-home .home-token-section>button>span{font-size:24px!important;font-weight:600!important;letter-spacing:-.025em!important}
+.portfolio-home .ph-home-holding{background:#111;box-shadow:inset 0 1px 0 #191919;padding-top:11px;padding-bottom:11px;gap:12px!important}
+.portfolio-home .ph-home-holding>.min-w-0>.flex>.truncate{font-size:17px!important;font-weight:500!important;line-height:22px}
+.portfolio-home .ph-home-holding>.min-w-0>.truncate{font-size:15px!important;line-height:20px;margin-top:2px!important;color:#b0b0b0!important}
+.portfolio-home .ph-home-holding>.text-right>div:first-child{font-size:17px!important;line-height:22px}
+.portfolio-home .ph-home-holding>.text-right>div:last-child{font-size:15px!important;line-height:20px;margin-top:2px!important}
+.portfolio-home .home-perps-card{width:154px;min-height:139px;background:#111;box-shadow:inset 0 1px 0 #191919;border-radius:23px;padding-top:19px}
+.portfolio-home .home-perps-label strong{font-size:17px;font-weight:600}
+.portfolio-home .home-perps-label span{font-size:15px}
+.portfolio-home .home-perps-change{font-size:16px}
+.portfolio-home .home-bottom-bar{padding-bottom:calc(8px + env(safe-area-inset-bottom))!important;background:transparent!important}
+.portfolio-home .home-bottom-bar>button:first-of-type{height:46px!important;background:rgba(20,20,20,.94)!important;box-shadow:inset 0 1px 0 #242424!important;padding-left:16px!important}
+.portfolio-home .home-bottom-bar>button:last-child{background:#aa9aef!important;flex-shrink:0}
+.portfolio-home .home-bottom-bar button>span{color:#929292!important;font-size:18px!important}
+@media(max-width:350px){.portfolio-home .ph-home-holding>.text-right>div:first-child{font-size:15px!important}.portfolio-home .ph-home-holding>.text-right>div:last-child,.portfolio-home .ph-home-holding>.min-w-0>.truncate{font-size:13px!important}.portfolio-home .ph-home-holding>.min-w-0>.flex>.truncate{font-size:16px!important}}
